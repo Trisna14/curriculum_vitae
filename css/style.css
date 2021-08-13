@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 1px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.full-wrap {
+    width: 800px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+}
+
+/* wrap l */
+.wrap-l {
+    flex: 3;
+    border: 1px solid gainsboro;
+    padding: 6px;
+}
+
+/* wrap r */
+.wrap-r {
+    flex: 2;
+    border: 1px solid gainsboro;
+    padding: 6px;
+}
+
+/* ------- ------- ------- */
+/* thumb img prof */
+.thumb-fullWrap {
+    padding: 8px;
+}
+
+.thumb-img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100%;
+    border: 1px dashed gainsboro;
+}
+
+.thumb-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* name */
+.name-fullWrap {
+    text-align: center;
+}
+
+.name-fullWrap h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* identity */
+.identity-fullWrap {
+    padding: 6px;
+    border: 1px solid rgba(139, 135, 135, 0.274);
+}
+.identity-fullWrap .identity {
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    padding-right: 20px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    line-height: 0;
+    background-color: black;
+    margin-bottom: 6px;
+}
+
+.identity-fullWrap .identity svg {
+    color: white;
+}
+
+/* contact */
+/* .contact-wrap {
+
+} */
+
+.contact-wrap .list-wrap {
+    display: flex;
+    text-transform: capitalize;
+    font-size: 13px;
+    border-bottom: 1px solid gainsboro;
+    padding: 4px;
+}
+
+.contact-wrap .list-wrap .key {
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.contact-wrap .list-wrap .value {
+    font-weight: lighter;
+}
